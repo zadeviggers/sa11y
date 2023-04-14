@@ -8,13 +8,13 @@
 * The above copyright notice shall be included in all copies or substantial portions of the Software.
 ------------------------------------------------------------------------*/
 
-const version = "2.3.5"; //Version
+const version = "latest"; //Version
 
 if (typeof Sa11y !== "object") {
     /* Append sa11y.css */
     const sa11ycss = document.createElement("link");
     sa11ycss.setAttribute("rel", "stylesheet");
-    sa11ycss.setAttribute("href", `https://cdn.jsdelivr.net/gh/ryersondmp/sa11y@${version}/dist/css/sa11y.min.css`);
+    sa11ycss.setAttribute("href", `https://cdn.jsdelivr.net/gh/zadeviggers/sa11y@${version}/dist/css/sa11y.min.css`);
     sa11ycss.setAttribute("type", "text/css");
 
     const bodyheader = document.getElementsByTagName("head")[0];
